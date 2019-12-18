@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e3cbcc1-d6b5-4770-9068-8937aa61a68b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ir/maktab/java32/projects/multithreadedchatapplication/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/maktab/java32/projects/multithreadedchatapplication/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ir/maktab/java32/projects/multithreadedchatapplication/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ir/maktab/java32/projects/multithreadedchatapplication/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ir/maktab/java32/projects/multithreadedchatapplication/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ir/maktab/java32/projects/multithreadedchatapplication/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ir/maktab/java32/projects/multithreadedchatapplication/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ir/maktab/java32/projects/multithreadedchatapplication/Handler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Phase1" />
+        <entry key="$PROJECT_DIR$" value="Phase2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -116,7 +117,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576614719332</updated>
       <workItem from="1576614747748" duration="4049000" />
-      <workItem from="1576697743459" duration="3707000" />
+      <workItem from="1576697743459" duration="6782000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1576615020358</created>
@@ -132,50 +133,69 @@
       <option name="project" value="LOCAL" />
       <updated>1576617676365</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="The handler class was created and the server class was changed and now 50 clients can  chat with server.">
+      <created>1576701717266</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576701717266</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
     <MESSAGE value="Server Class, client class completed and they can chat with each other." />
-    <option name="LAST_COMMIT_MESSAGE" value="Server Class, client class completed and they can chat with each other." />
+    <MESSAGE value="The handler class was created and the server class was changed and now 50 clients can  chat with server." />
+    <option name="LAST_COMMIT_MESSAGE" value="The handler class was created and the server class was changed and now 50 clients can  chat with server." />
   </component>
   <component name="WindowStateProjectService">
     <state x="141" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576700572488">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="141" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1576700572488" />
-    <state x="491" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1576699144074">
+    <state x="491" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1576702955037">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="491" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741@0.27.1366.741" timestamp="1576699144074" />
+    <state x="491" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741@0.27.1366.741" timestamp="1576702955037" />
     <state x="416" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576699025376">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="416" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1366.741@0.27.1366.741" timestamp="1576699025376" />
-    <state x="167" y="27" width="1124" height="741" key="CommitChangelistDialog2" timestamp="1576701457207">
+    <state x="167" y="27" width="1124" height="741" key="CommitChangelistDialog2" timestamp="1576701716883">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="167" y="27" width="1124" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1576701457207" />
-    <state width="1320" height="234" key="GridCell.Tab.0.bottom" timestamp="1576700887187">
+    <state x="167" y="27" width="1124" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1576701716883" />
+    <state width="1320" height="234" key="GridCell.Tab.0.bottom" timestamp="1576704650450">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="234" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1576700887187" />
-    <state width="1320" height="234" key="GridCell.Tab.0.center" timestamp="1576700887179">
+    <state width="1320" height="234" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1576704650450" />
+    <state width="1320" height="234" key="GridCell.Tab.0.center" timestamp="1576704650450">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="234" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1576700887179" />
-    <state width="1320" height="234" key="GridCell.Tab.0.left" timestamp="1576700887178">
+    <state width="1320" height="234" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1576704650450" />
+    <state width="1320" height="234" key="GridCell.Tab.0.left" timestamp="1576704650449">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="234" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1576700887178" />
-    <state width="1320" height="234" key="GridCell.Tab.0.right" timestamp="1576700887179">
+    <state width="1320" height="234" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1576704650449" />
+    <state width="1320" height="234" key="GridCell.Tab.0.right" timestamp="1576704650450">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="234" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1576700887179" />
+    <state width="1320" height="234" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1576704650450" />
     <state x="172" y="31" key="SettingsEditor" timestamp="1576700428170">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -188,5 +208,9 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="339" y="224" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1576697743776" />
+    <state x="347" y="175" key="run.anything.popup" timestamp="1576703023669">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="347" y="175" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1576703023669" />
   </component>
 </project>
