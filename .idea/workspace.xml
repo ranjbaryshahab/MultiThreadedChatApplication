@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e3cbcc1-d6b5-4770-9068-8937aa61a68b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ir/maktab/java32/projects/multithreadedchatapplication/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ir/maktab/java32/projects/multithreadedchatapplication/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ir/maktab/java32/projects/multithreadedchatapplication/Server.java" afterDir="false" />
+    </list>
+    <list id="2f52a688-0105-43ab-b76f-6eee772d4412" name="UserList move to server class." comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ir/maktab/java32/projects/multithreadedchatapplication/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ir/maktab/java32/projects/multithreadedchatapplication/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ir/maktab/java32/projects/multithreadedchatapplication/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ir/maktab/java32/projects/multithreadedchatapplication/Handler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ir/maktab/java32/projects/multithreadedchatapplication/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ir/maktab/java32/projects/multithreadedchatapplication/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +36,37 @@
         <option value="$PROJECT_DIR$/.idea" />
       </set>
     </option>
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/ir/maktab/java32/projects/multithreadedchatapplication/Server.java">
+      <ranges>
+        <range start1="5" end1="5" start2="5" end2="6" changelist="1e3cbcc1-d6b5-4770-9068-8937aa61a68b" />
+        <range start1="9" end1="9" start2="10" end2="14" changelist="1e3cbcc1-d6b5-4770-9068-8937aa61a68b" />
+        <range start1="10" end1="11" start2="15" end2="16" changelist="1e3cbcc1-d6b5-4770-9068-8937aa61a68b" />
+        <range start1="18" end1="18" start2="23" end2="63" changelist="2f52a688-0105-43ab-b76f-6eee772d4412" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/.idea/workspace.xml">
+      <ranges>
+        <range start1="4" end1="5" start2="4" end2="4" changelist="1e3cbcc1-d6b5-4770-9068-8937aa61a68b" />
+        <range start1="7" end1="8" start2="6" end2="7" changelist="1e3cbcc1-d6b5-4770-9068-8937aa61a68b" />
+        <range start1="119" end1="120" start2="118" end2="120" changelist="2f52a688-0105-43ab-b76f-6eee772d4412" />
+        <range start1="142" end1="143" start2="142" end2="157" changelist="2f52a688-0105-43ab-b76f-6eee772d4412" />
+        <range start1="153" end1="154" start2="167" end2="170" changelist="1e3cbcc1-d6b5-4770-9068-8937aa61a68b" />
+        <range start1="163" end1="164" start2="179" end2="182" changelist="2f52a688-0105-43ab-b76f-6eee772d4412" />
+        <range start1="170" end1="171" start2="188" end2="189" changelist="1e3cbcc1-d6b5-4770-9068-8937aa61a68b" />
+        <range start1="173" end1="174" start2="191" end2="192" changelist="1e3cbcc1-d6b5-4770-9068-8937aa61a68b" />
+        <range start1="178" end1="179" start2="196" end2="197" changelist="2f52a688-0105-43ab-b76f-6eee772d4412" />
+        <range start1="181" end1="183" start2="199" end2="201" changelist="2f52a688-0105-43ab-b76f-6eee772d4412" />
+        <range start1="185" end1="187" start2="203" end2="205" changelist="2f52a688-0105-43ab-b76f-6eee772d4412" />
+        <range start1="189" end1="191" start2="207" end2="209" changelist="2f52a688-0105-43ab-b76f-6eee772d4412" />
+        <range start1="193" end1="195" start2="211" end2="213" changelist="2f52a688-0105-43ab-b76f-6eee772d4412" />
+        <range start1="197" end1="198" start2="215" end2="216" changelist="2f52a688-0105-43ab-b76f-6eee772d4412" />
+        <range start1="206" end1="207" start2="224" end2="225" changelist="1e3cbcc1-d6b5-4770-9068-8937aa61a68b" />
+        <range start1="209" end1="210" start2="227" end2="228" changelist="1e3cbcc1-d6b5-4770-9068-8937aa61a68b" />
+        <range start1="214" end1="214" start2="232" end2="236" changelist="1e3cbcc1-d6b5-4770-9068-8937aa61a68b" />
+      </ranges>
+    </file>
   </component>
   <component name="ProjectId" id="1V7qw9MJzTfmCu6Mdh9eJCGwvcD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -112,12 +146,14 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1e3cbcc1-d6b5-4770-9068-8937aa61a68b" name="Default Changelist" comment="" />
+      <changelist id="2f52a688-0105-43ab-b76f-6eee772d4412" name="UserList move to server class." comment="" />
       <created>1576614719332</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576614719332</updated>
       <workItem from="1576614747748" duration="4049000" />
-      <workItem from="1576697743459" duration="6782000" />
+      <workItem from="1576697743459" duration="7762000" />
+      <workItem from="1576731728039" duration="1970000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1576615020358</created>
@@ -140,7 +176,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576701717266</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="The user class was created and check user account.">
+      <created>1576705507492</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576705507492</updated>
+    </task>
+    <task id="LOCAL-00005" summary="UserList move to server class.">
+      <created>1576733454893</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576733454893</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +201,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -161,56 +213,66 @@
     <MESSAGE value="Initial" />
     <MESSAGE value="Server Class, client class completed and they can chat with each other." />
     <MESSAGE value="The handler class was created and the server class was changed and now 50 clients can  chat with server." />
-    <option name="LAST_COMMIT_MESSAGE" value="The handler class was created and the server class was changed and now 50 clients can  chat with server." />
+    <MESSAGE value="The user class was created and check user account." />
+    <MESSAGE value="UserList move to server class." />
+    <option name="LAST_COMMIT_MESSAGE" value="UserList move to server class." />
   </component>
   <component name="WindowStateProjectService">
     <state x="141" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576700572488">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="141" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1576700572488" />
-    <state x="491" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1576702955037">
+    <state x="491" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1576732969455">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="491" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741@0.27.1366.741" timestamp="1576702955037" />
+    <state x="491" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741@0.27.1366.741" timestamp="1576732969455" />
     <state x="416" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576699025376">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="416" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1366.741@0.27.1366.741" timestamp="1576699025376" />
-    <state x="167" y="27" width="1124" height="741" key="CommitChangelistDialog2" timestamp="1576701716883">
+    <state x="178" y="27" width="1124" height="741" key="CommitChangelistDialog2" timestamp="1576733454470">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="167" y="27" width="1124" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1576701716883" />
-    <state width="1320" height="234" key="GridCell.Tab.0.bottom" timestamp="1576704650450">
+    <state x="178" y="27" width="1124" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1576733454470" />
+    <state width="1320" height="234" key="GridCell.Tab.0.bottom" timestamp="1576733661301">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="234" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1576704650450" />
-    <state width="1320" height="234" key="GridCell.Tab.0.center" timestamp="1576704650450">
+    <state width="1320" height="234" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1576733661301" />
+    <state width="1320" height="234" key="GridCell.Tab.0.center" timestamp="1576733661300">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="234" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1576704650450" />
-    <state width="1320" height="234" key="GridCell.Tab.0.left" timestamp="1576704650449">
+    <state width="1320" height="234" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1576733661300" />
+    <state width="1320" height="234" key="GridCell.Tab.0.left" timestamp="1576733661300">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="234" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1576704650449" />
-    <state width="1320" height="234" key="GridCell.Tab.0.right" timestamp="1576704650450">
+    <state width="1320" height="234" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1576733661300" />
+    <state width="1320" height="234" key="GridCell.Tab.0.right" timestamp="1576733661300">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="234" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1576704650450" />
+    <state width="1320" height="234" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1576733661300" />
     <state x="172" y="31" key="SettingsEditor" timestamp="1576700428170">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="172" y="31" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1576700428170" />
+    <state x="526" y="314" width="303" height="164" key="VCS.ChangelistChooser" timestamp="1576733698021">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="526" y="314" width="303" height="164" key="VCS.ChangelistChooser/0.27.1366.741@0.27.1366.741" timestamp="1576733698021" />
     <state x="278" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1576615184055">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="278" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1576615184055" />
-    <state x="339" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1576697743776">
+    <state x="339" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1576731727525">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="339" y="224" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1576697743776" />
+    <state x="339" y="224" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1576731727525" />
     <state x="347" y="175" key="run.anything.popup" timestamp="1576703023669">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="347" y="175" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1576703023669" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1576732128036">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1576732128036" />
   </component>
 </project>
